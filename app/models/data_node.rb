@@ -1,0 +1,2 @@
+class DataNode < ApplicationRecord
+end
