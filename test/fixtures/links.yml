@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  data_node: one
+  data_hash: one
+
+two:
+  data_node: two
+  data_hash: two

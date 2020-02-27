@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  post 'heartbeat', to: 'data_nodes#handle_heartbeat'
+  get 'data-nodes', to: 'data_nodes#all'
 end
